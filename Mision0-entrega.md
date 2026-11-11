@@ -16,6 +16,11 @@ Mi equipo tiene la virtualización por hardware habilitada (Administrador de tar
 
 ### H2 · Instalar VirtualBox e importar Kali
 
+Hash SHA256 de la imagen de Kali (`kali-linux-2026.3-virtualbox-amd64.7z`) calculado en PowerShell con `Get-FileHash` y comparado con el publicado en la web oficial de Kali, coinciden:
+
+`84863C4FA46B2F1B29B152348583C6FB20F68F91971617C0D684E0EB163AAB6D`
+
+![H2 - Hash SHA256 verificado en PowerShell](capturas/H2-hash.png)
 
 Terminal de Kali tras cambiar la contraseña con `passwd` (`password updated successfully`) y actualizar el sistema con `sudo apt update && sudo apt full-upgrade`:
 
